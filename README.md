@@ -10,6 +10,8 @@ The frontend communicates with the backend APIs hosted separately for all busine
 
 ---
 
+### Backend-repo: https://github.com/hasan-fahad/Courier-and-parcel-Management-Backend
+
 ## Features
 
 - **Admin**  
@@ -102,12 +104,3 @@ src/
 
 ---
 
-## Contribution
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/hasan-fahad/Courier-and-parcel-Management-Frontend/issues) or submit a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/hasan-fahad/Courier-and-parcel-Management-Frontend/blob/main/LICENSE) file for details.
