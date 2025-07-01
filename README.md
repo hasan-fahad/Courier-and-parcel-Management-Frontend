@@ -9,7 +9,7 @@ It provides an intuitive UI for Admins, Customers, and Delivery Agents to manage
 The frontend communicates with the backend APIs hosted separately for all business logic and database operations.
 
 ---
-
+### Live-Link: https://fanciful-choux-a39cf0.netlify.app/
 ### Backend-repo: https://github.com/hasan-fahad/Courier-and-parcel-Management-Backend
 
 ## Features
