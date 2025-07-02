@@ -15,7 +15,7 @@ function TrackParcel() {
     setTrackingData(null);
     try {
       const response = await API.get(
-        `http://localhost:5000/api/parcels/track/${trackingNumber}`
+        `/api/parcels/track/${trackingNumber}`
       );
       setTrackingData(response.data);
     } catch (err) {
