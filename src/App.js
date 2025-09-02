@@ -3,14 +3,13 @@ import {
   Routes,
   Route,
   Outlet,
-  Navigate,
+  
 } from "react-router-dom";
 import AdminSidebar from "./Pages/admin/AdminSidebar";
 import AdminDashboard from "./Pages/admin/AdminDashboard";
 import AssignAgents from "./Pages/admin/AssignAgents";
 import AllUsers from "./Pages/admin/AllUsers";
 import Sidebar from "./Pages/customer/CustomerSidebar";
-import Dashboard from "./Pages/customer/CustomerDashboard";
 import Profile from "./Pages/Profile";
 import BookParcel from "./Pages/customer/BookParcel";
 import Login from "./Pages/Login";
@@ -22,7 +21,6 @@ import BookingHistory from "./Pages/admin/BookingHistory";
 
 import CustomerBookingHistory from "./Pages/customer/CustomerBookingHistory";
 import AgentSidebar from "./Pages/agent/AgentSidebar";
-import AgentDashboard from "./Pages/agent/AgentDashboard";
 import AssignedParcels from "./Pages/agent/ViewAssignedParcels";
 import TrackParcel from "./Pages/TrackParcel";
 
