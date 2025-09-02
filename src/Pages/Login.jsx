@@ -39,6 +39,7 @@ const handleLogin = async (e) => {
     try {
       const res = await API.post("/auth/register", { name, email, password });
       alert("Registration successful. Please log in.");
+      console.log(res);
       setIsSignup(false); 
     } catch (err) {
       alert("Signup failed. Try again.");
@@ -61,18 +62,18 @@ const handleLogin = async (e) => {
             }}
           />
           {/* Decorative Boxes */}
-          <div className="absolute p-2 transform -translate-x-1/2 -translate-y-1/2 shadow-md top-1/4 left-1/4">
-            <img src="/assets/box.png" className="w-12 h-12 rounded-md" />
-          </div>
-          <div className="absolute left-0 p-2 transform -translate-x-1/2 -translate-y-1/2 shadow-md top-1/2">
-            <img src="/assets/box.png" className="w-12 h-12 border-2 border-white rounded-md" />
-          </div>
-          <div className="absolute p-2 transform -translate-x-1/2 translate-y-1/2 shadow-md bottom-1/4 left-1/4">
-            <img src="/assets/box.png" className="w-12 h-12 border-2 border-white rounded-md" />
-          </div>
-          <div className="absolute right-0 p-2 transform translate-x-1/2 translate-y-1/2 shadow-md">
-            <img src="/assets/box.png" className="w-12 h-12 border-2 border-white rounded-md" />
-          </div>
+         <div className="absolute p-2 transform -translate-x-1/2 -translate-y-1/2 shadow-md top-1/4 left-1/4">
+  <img src="/assets/box.png" alt="" className="w-12 h-12 rounded-md" />
+</div>
+<div className="absolute left-0 p-2 transform -translate-x-1/2 -translate-y-1/2 shadow-md top-1/2">
+  <img src="/assets/box.png" alt="" className="w-12 h-12 border-2 border-white rounded-md" />
+</div>
+<div className="absolute p-2 transform -translate-x-1/2 translate-y-1/2 shadow-md bottom-1/4 left-1/4">
+  <img src="/assets/box.png" alt="" className="w-12 h-12 border-2 border-white rounded-md" />
+</div>
+<div className="absolute right-0 p-2 transform translate-x-1/2 translate-y-1/2 shadow-md">
+  <img src="/assets/box.png" alt="" className="w-12 h-12 border-2 border-white rounded-md" />
+</div>
         </div>
       </div>
 
