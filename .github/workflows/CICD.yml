@@ -46,7 +46,9 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: "Installing Dependencies"
-      run: npm i
+      run: |
+       npm i
+       npm install react-router-dom
 
     - name: "Test command"
       run: npm run test
