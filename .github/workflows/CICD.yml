@@ -46,6 +46,10 @@ jobs:
         cache: 'npm'
     - name: "Installing Dependencies"
       run: npm i
+    - name: "Installing React Router"
+      run: npm i react-router-dom
+    - name: "Installing Dev Dependencies"
+      run: npm ci
 
     - name: "Running test cases"
       run: npm run test
