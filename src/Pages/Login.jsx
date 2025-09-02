@@ -37,9 +37,8 @@ const handleLogin = async (e) => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const res = await API.post("/auth/register", { name, email, password });
+      await API.post("/auth/register", { name, email, password });
       alert("Registration successful. Please log in.");
-      console.log(res);
       setIsSignup(false); 
     } catch (err) {
       alert("Signup failed. Try again.");
